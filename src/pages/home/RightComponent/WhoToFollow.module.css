@@ -1,0 +1,83 @@
+.Startdiv {
+  border-radius: 10px;
+  background-color: #f5f8fa;
+  width: 100%;
+  padding:16px;
+  box-sizing: border-box;
+}
+.userDataPart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+ 
+}
+
+.userDataPart>div {
+  box-sizing: border-box;
+}
+
+.userDataPart ul {
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+.userDataPart img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.userDataPart li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.userDataPart button {
+  background-color:black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: auto;
+  box-sizing: border-box;
+}
+
+.userDataPart button:hover {
+  background-color:#1da1f2;
+}
+.name{
+   color: #1da1f2;
+  font-weight: 800;
+
+}
+
+.name:hover{
+ text-decoration: underline;
+
+}
+
+.userDataPart li:hover{
+  background-color: rgb(250, 246, 241);
+
+}
+.userDataPart li span {
+  margin-right: 10px;
+}
+.userDataPart img:hover{
+  transform: rotate(10deg);
+
+}
+.Middlebtn{
+  border: none;
+  color: rgb(145, 183, 244);
+  font-size: 16px;
+  font-weight:500;
+  background: transparent;
+}
+.Middlebtn:hover{
+  color: #1da1f2;
+  cursor: pointer;
+
+}

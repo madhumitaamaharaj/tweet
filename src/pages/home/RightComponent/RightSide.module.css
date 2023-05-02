@@ -1,0 +1,95 @@
+.start {
+  display: flex;
+  width:90%;
+  padding: 0 20px ; 
+  margin-bottom: 2rem;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y:scroll;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+}
+.start::-webkit-scrollbar{
+  display: none;
+}
+
+.firstComp {
+  background-color: #f5f8fa;
+  border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  margin-bottom:20px;
+  box-sizing: border-box;
+}
+.start > div{
+  width:100%;
+}
+
+.firstcontainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight:800;
+  
+
+}
+.datapart {
+  margin-top: 10px;
+}
+
+.datapart ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 12px;
+}
+
+.datapart li:first-child {
+  color: #1da1f2;
+  font-size: 14px;
+  height: 25px;
+  font-weight:800;
+  margin-bottom: 0px;
+}
+.datapart li:first-child>p:hover{
+  border-radius:50%;
+  background-color: #8fcef5;
+  cursor: pointer;
+  padding:  0 3px;
+ 
+}
+
+.datapart li:nth-child(2){
+  font-size: 16px;
+  font-weight:800;
+  margin-bottom: 6px;
+}
+
+.datapart li:nth-child(3) {
+  font-size: 12px;
+  color: #657786;
+  margin-bottom: 6px;
+  font-weight:bold;
+}
+
+.datapart  {
+  color: #657786;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.btnPart>button{
+  border: none;
+  color: rgb(145, 183, 244);
+  font-size: 16px;
+  font-weight:500;
+  background: transparent;
+}
+.btnPart{
+  padding:8px 0px;
+}
+.btnPart>button:hover{
+  cursor: pointer;
+  color: #1da1f2;
+}

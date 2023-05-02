@@ -1,0 +1,94 @@
+.tweetBox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 0px;
+  }
+  
+  .tweetInput {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .tweet-input input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 18px;
+    outline: none;
+  }
+  
+  .tweetInput Textarea::placeholder {
+    color: gray;
+  }
+  
+  .tweetBox svg {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .tweetBox button {
+    align-self: flex-end;
+    background-color: #1DA1F2;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+   
+  }
+  .iconsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 8px;
+  }
+  .tweetInput {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  
+  .avatar {
+    margin-right: 10px;
+    padding-bottom: 51px;
+  }
+  
+  .inputField {
+    flex: 1;
+    border: none;
+    font-size: 18px;
+    margin-left: 10px;
+    outline-width: 0;
+  }
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .home {
+    margin-left: 500px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .forYou {
+    color: gray;
+    margin-left: 600px;
+    border-bottom: 2px solid rgb(29, 155, 240);
+  }
+  
+  .following {
+    color: gray;
+    margin-left: 150px;
+   
+  }
+  .icons{
+    margin-left: 4.8rem;
+  }

@@ -1,0 +1,17 @@
+.main{
+    width: 100%;
+}
+.day{
+    width: 30%;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.month{
+    width: 30%;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.year{
+    width: 30%;
+    height: 2rem;
+}

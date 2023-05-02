@@ -1,0 +1,63 @@
+.Sidebar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-direction: column;
+  align-items: flex-start;
+
+  /* width: 30%; equivalent to 275px */
+
+  background-color: #fff;
+  padding: 0.9375rem; /* equivalent to 15px */
+  margin-left: 2.875rem;
+}
+
+.sidebar__twitterIcons {
+  display: flex;
+  flex-direction: column;
+}
+
+ .icons p {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1rem ; /* equivalent to 15px */
+  color: #1c2938;
+  padding: 10px;
+   /* equivalent to 10px 20px */
+  border-radius: 3.125rem; /* equivalent to 50px */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin:  0;
+  margin-bottom: 10px;
+
+}
+
+ .icons  p:hover {
+  background-color:rgb(199, 192, 192);
+}
+
+
+
+ .icons p span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5em; /* equivalent to 40px */
+  height: 1.563em; /* equivalent to 40px */
+  margin-right: 0.9375em; /* equivalent to 15px */
+  border-radius: 50%;
+  font-size: 0.5625rem;
+
+ 
+}
+
+.icons p span svg {
+  width: 1.5625rem; /* equivalent to 25px */
+  height: 1.5625rem; /* equivalent to 25px */
+  color: #1c2938;
+  padding-right: 10px;
+}
+.sidebar__lastButton >span svg{
+  margin-top: 10px;
+}

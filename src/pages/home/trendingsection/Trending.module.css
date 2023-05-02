@@ -1,0 +1,27 @@
+.trend{
+	justify-content: right;
+  text-align: left;
+  box-sizing: border-box;
+  width: 93%;
+  padding: 2rem;
+  padding-left: 5px;
+  margin-top: 1rem;
+  position: absolute;
+  right: 0px;
+  border-radius: 10px;
+  background-color: #f5f8fa
+}
+.trend_main{
+  position: sticky;
+  top: 0;
+}
+.trending{
+  margin: 1rem 0;
+}
+.head{
+  font-size: 14px;
+  font-weight: 900;
+}
+.trending > p{
+  color: grey;
+}

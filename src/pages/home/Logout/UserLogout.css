@@ -1,0 +1,7 @@
+.userLogout_tooltip{
+    width: 100%;
+    border-radius: 23px !important;
+}
+.userLogout_tooltip:hover{
+   background-color: rgb(205, 205, 205) !important;
+}

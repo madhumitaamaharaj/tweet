@@ -1,0 +1,5 @@
+.App{
+  height: 100vh;  
+  display: flex;
+  max-width: 1300px;
+}
